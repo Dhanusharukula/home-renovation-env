@@ -130,6 +130,6 @@ def run_task(task_name):
 # =========================
 # MAIN
 # =========================
-if name == "main":
+if __name__ == "__main__":
     for task in ["easy", "medium", "hard"]:
         run_task(task)
